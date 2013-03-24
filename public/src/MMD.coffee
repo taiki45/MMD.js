@@ -200,7 +200,7 @@ class this.MMD
   move: ->
     return if not @playing or @textureManager.pendingCount > 0
     if ++@frame > @motionManager.lastFrame
-      @pause()
+      @rewind()
       return
 
     @moveCamera()
