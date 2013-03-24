@@ -1,5 +1,5 @@
 window.onload = function() {
-  var size = 512
+  var size = 1024
   var canvas = document.createElement('canvas');
   canvas.width = size;
   canvas.height = size;
@@ -13,8 +13,8 @@ window.onload = function() {
   mmd.registerKeyListener(document);
   mmd.registerMouseListener(document);
 
-  var miku = new MMD.Model('model', 'Miku_Hatsune_Ver2.pmd');
-  //var miku = new MMD.Model('Lat', 'Normal.pmd');
+  //var miku = new MMD.Model('model', 'Miku_Hatsune_Ver2.pmd');
+  var miku = new MMD.Model('Lat', 'Normal.pmd');
   //var miku = new MMD.Model('mobko', 'mobko.pmd');
   //var miku = new MMD.Model('yufu', 'yufu.pmd');
   //var miku = new MMD.Model('defoko', 'defoko.pmd');
