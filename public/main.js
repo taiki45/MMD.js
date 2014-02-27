@@ -15,6 +15,7 @@ window.onload = function() {
 
   //var miku = new MMD.Model('model', 'Miku_Hatsune_Ver2.pmd');
   var miku = new MMD.Model('Lat', 'Normal.pmd');
+  //var miku = new MMD.Model('tda', 'tda_1.05_phsical.pmd');
   //var miku = new MMD.Model('mobko', 'mobko.pmd');
   //var miku = new MMD.Model('yufu', 'yufu.pmd');
   //var miku = new MMD.Model('defoko', 'defoko.pmd');
